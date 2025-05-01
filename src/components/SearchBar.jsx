@@ -66,7 +66,7 @@ const SearchBar = ({ query, setQuery, fetchMovies }) => {
         onChange={(e) => setQuery(e.target.value)}
       />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-      <button className="search-bar button" type="submit"><i className="fa fa-search"/>Search</button>
+      <button className="search-bar button" type="submit">Search</button>
     </form>
   );
 };
