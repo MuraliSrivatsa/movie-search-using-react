@@ -1,0 +1,92 @@
+
+.movie-card {
+    width: 240px;
+    background: white;
+    border-radius: 0.7rem;
+    overflow: hidden;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+  }
+  
+  .movie-info {
+    padding: 10px;
+  }
+  
+  .movie-info h3 {
+    font-size: 16px;
+    margin: 0;
+    color: black;
+  }
+  
+  .movie-info p {
+    color: #777;
+    font-size: 14px;
+  }
+  
+  .imdb{
+    background-color:yellow;
+    
+  }
+
+  /* Small screens */
+@media (max-width: 600px) {
+    .movie-card {
+      width: 80%;
+      height: 90%;
+    }
+  
+  
+    .search-bar input {
+      width: 56%;
+    }
+  
+    .search-bar button {
+      width: 32%;
+    }
+
+  }
+  
+  /* Tablets */
+  @media (min-width: 601px) and (max-width: 900px) {
+    .movie-card {
+      width: 45%;
+    }
+  }
+  
+  /* Desktops */
+  @media (min-width: 901px) {
+    .movie-card {
+      width: 220px;
+    }
+  }
+  
+
+
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  button:hover {
+    border-color: #646cff;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
